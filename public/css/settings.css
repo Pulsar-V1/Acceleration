@@ -1,3 +1,12 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1f1f1f 100%);
+    color: #ffffff;
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
 .settings-container {
   max-width: 1400px;
   margin: 0 auto;
