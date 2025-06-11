@@ -33,7 +33,7 @@
     <div class="settings-container">
       <div class="panel" id="particles-settings">
         <label><i class="fas fa-mask"></i> Tab Cloaking</label>
-        <p class="description">Disguise your tab with a custom name and icon to blend in</p>
+        <p class="description">Disguise your tab with a custom name and icon </p>
         <input type="text" id="name-input" placeholder="Enter tab name..." />
         <input type="text" id="icon-input" placeholder="Enter icon URL..." />
         <button
@@ -137,7 +137,6 @@
     </div>
 
     <script>
-      // Load saved settings
       const savedCloak = localStorage.getItem("cloak");
       if (savedCloak) {
         try {
